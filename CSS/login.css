@@ -1,0 +1,26 @@
+section {
+    display: -webkit-flex;
+    display: flex;
+    background-color: aqua;
+    height: 100vh;
+  }
+  nav {
+    -webkit-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+    background: linear-gradient(rgb(209, 78, 239),rgb(250, 178, 247));
+    padding: 20px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+    color:blue;
+  }
+  
